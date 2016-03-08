@@ -29,8 +29,6 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(textCellIdentifier, forIndexPath: indexPath) as UITableViewCell
         
-        cell.selectionStyle = .Blue
-        
         let row = indexPath.row
         
         let tableBorderLeft: CGFloat = 50
@@ -56,17 +54,20 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             blue: 136/255.0,
             alpha: 1.0).CGColor
         cell.contentView.layer.cornerRadius = 15.0
-        cell.selectionStyle = UITableViewCellSelectionStyle.None
+        
+        cell.textLabel!.highlightedTextColor = UIColor.redColor()
+        let myCustomSelectionColorView = UIView()
+        myCustomSelectionColorView.backgroundColor = UIColor.clearColor()
+        cell.selectedBackgroundView = myCustomSelectionColorView
         }
         else {
         cell.textLabel?.text = nil
+        let myCustomSelectionColorView = UIView()
+        myCustomSelectionColorView.backgroundColor = UIColor.clearColor()
+        cell.selectedBackgroundView = myCustomSelectionColorView
             }
         return cell
     }
-    
-/* func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-return 15.0
-} */
 
 
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -78,7 +79,6 @@ return 15.0
         }
     }
    
-    
     
     // MARK:  UITableViewDelegate Methods
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
