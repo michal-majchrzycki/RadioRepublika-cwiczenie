@@ -16,9 +16,6 @@
 		906AE43B1C066F570007B341 /* Logo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906AE4381C066F570007B341 /* Logo1@2x.png */; };
 		906AE43C1C066F570007B341 /* Logo1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906AE4391C066F570007B341 /* Logo1@1x.png */; };
 		906AE43E1C067E830007B341 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906AE43D1C067E830007B341 /* MediaPlayer.framework */; };
-		907098241C1A3DB500C0BF3A /* TuesdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907098231C1A3DB500C0BF3A /* TuesdayViewController.swift */; };
-		907098261C1A3E3200C0BF3A /* WednesdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907098251C1A3E3200C0BF3A /* WednesdayViewController.swift */; };
-		907098281C1A3EB400C0BF3A /* ThursdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907098271C1A3EB400C0BF3A /* ThursdayViewController.swift */; };
 		908AA0FC1C4704AD00341438 /* RadioTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908AA0FB1C4704AD00341438 /* RadioTabBarItem.swift */; };
 		908AA0FE1C4705B900341438 /* ProgramTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908AA0FD1C4705B900341438 /* ProgramTabBarItem.swift */; };
 		90A9BC3B1BFFD3780071F344 /* radio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A9BC351BFFD3780071F344 /* radio@3x.png */; };
@@ -31,8 +28,6 @@
 		90A9BC461BFFD5870071F344 /* pause@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A9BC421BFFD5870071F344 /* pause@2.png */; };
 		90A9BC471BFFD5870071F344 /* pause@3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A9BC431BFFD5870071F344 /* pause@3.png */; };
 		90A9BC481BFFD5870071F344 /* play@3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A9BC441BFFD5870071F344 /* play@3.png */; };
-		90D0F3051C20B967004C6710 /* SaturdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0F3041C20B967004C6710 /* SaturdayViewController.swift */; };
-		90D3842B1C1E1F2F00537C06 /* FridayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3842A1C1E1F2F00537C06 /* FridayViewController.swift */; };
 		90E93BDD1BE2E9AC00489F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E93BDC1BE2E9AC00489F73 /* AppDelegate.swift */; };
 		90E93BDF1BE2E9AC00489F73 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E93BDE1BE2E9AC00489F73 /* FirstViewController.swift */; };
 		90E93BE11BE2E9AC00489F73 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E93BE01BE2E9AC00489F73 /* SecondViewController.swift */; };
@@ -42,7 +37,6 @@
 		90E93BF41BE2E9AD00489F73 /* RadioRepublikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E93BF31BE2E9AD00489F73 /* RadioRepublikaTests.swift */; };
 		90E93BFF1BE2E9AD00489F73 /* RadioRepublikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E93BFE1BE2E9AD00489F73 /* RadioRepublikaUITests.swift */; };
 		90E93C0D1BE2EABF00489F73 /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E93C0C1BE2EABF00489F73 /* RadioPlayer.swift */; };
-		90FDA9441C176F810026D512 /* SundayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDA9431C176F810026D512 /* SundayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,9 +66,6 @@
 		906AE4381C066F570007B341 /* Logo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo1@2x.png"; path = "images/Logo1@2x.png"; sourceTree = "<group>"; };
 		906AE4391C066F570007B341 /* Logo1@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo1@1x.png"; path = "images/Logo1@1x.png"; sourceTree = "<group>"; };
 		906AE43D1C067E830007B341 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		907098231C1A3DB500C0BF3A /* TuesdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuesdayViewController.swift; sourceTree = "<group>"; };
-		907098251C1A3E3200C0BF3A /* WednesdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WednesdayViewController.swift; sourceTree = "<group>"; };
-		907098271C1A3EB400C0BF3A /* ThursdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThursdayViewController.swift; sourceTree = "<group>"; };
 		908AA0FB1C4704AD00341438 /* RadioTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioTabBarItem.swift; sourceTree = "<group>"; };
 		908AA0FD1C4705B900341438 /* ProgramTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramTabBarItem.swift; sourceTree = "<group>"; };
 		90A9BC351BFFD3780071F344 /* radio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "radio@3x.png"; path = "images/radio@3x.png"; sourceTree = "<group>"; };
@@ -87,8 +78,6 @@
 		90A9BC421BFFD5870071F344 /* pause@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause@2.png"; path = "images/pause@2.png"; sourceTree = "<group>"; };
 		90A9BC431BFFD5870071F344 /* pause@3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause@3.png"; path = "images/pause@3.png"; sourceTree = "<group>"; };
 		90A9BC441BFFD5870071F344 /* play@3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@3.png"; path = "images/play@3.png"; sourceTree = "<group>"; };
-		90D0F3041C20B967004C6710 /* SaturdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaturdayViewController.swift; sourceTree = "<group>"; };
-		90D3842A1C1E1F2F00537C06 /* FridayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridayViewController.swift; sourceTree = "<group>"; };
 		90E93BD91BE2E9AC00489F73 /* Republika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Republika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E93BDC1BE2E9AC00489F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E93BDE1BE2E9AC00489F73 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +93,6 @@
 		90E93BFE1BE2E9AD00489F73 /* RadioRepublikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioRepublikaUITests.swift; sourceTree = "<group>"; };
 		90E93C001BE2E9AD00489F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90E93C0C1BE2EABF00489F73 /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
-		90FDA9431C176F810026D512 /* SundayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SundayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,13 +178,7 @@
 				90E93BE21BE2E9AC00489F73 /* Main.storyboard */,
 				908AA0FB1C4704AD00341438 /* RadioTabBarItem.swift */,
 				908AA0FD1C4705B900341438 /* ProgramTabBarItem.swift */,
-				90FDA9431C176F810026D512 /* SundayViewController.swift */,
 				900AE0011C1A344E0074D5FB /* MondayViewController.swift */,
-				907098231C1A3DB500C0BF3A /* TuesdayViewController.swift */,
-				907098251C1A3E3200C0BF3A /* WednesdayViewController.swift */,
-				907098271C1A3EB400C0BF3A /* ThursdayViewController.swift */,
-				90D3842A1C1E1F2F00537C06 /* FridayViewController.swift */,
-				90D0F3041C20B967004C6710 /* SaturdayViewController.swift */,
 				90E93BE51BE2E9AC00489F73 /* Assets.xcassets */,
 				90E93BE71BE2E9AC00489F73 /* LaunchScreen.storyboard */,
 				90E93BEA1BE2E9AC00489F73 /* Info.plist */,
@@ -369,17 +351,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				907098281C1A3EB400C0BF3A /* ThursdayViewController.swift in Sources */,
-				90FDA9441C176F810026D512 /* SundayViewController.swift in Sources */,
 				908AA0FC1C4704AD00341438 /* RadioTabBarItem.swift in Sources */,
 				900AE0021C1A344E0074D5FB /* MondayViewController.swift in Sources */,
-				907098261C1A3E3200C0BF3A /* WednesdayViewController.swift in Sources */,
 				90E93C0D1BE2EABF00489F73 /* RadioPlayer.swift in Sources */,
 				90E93BE11BE2E9AC00489F73 /* SecondViewController.swift in Sources */,
 				908AA0FE1C4705B900341438 /* ProgramTabBarItem.swift in Sources */,
-				90D3842B1C1E1F2F00537C06 /* FridayViewController.swift in Sources */,
-				90D0F3051C20B967004C6710 /* SaturdayViewController.swift in Sources */,
-				907098241C1A3DB500C0BF3A /* TuesdayViewController.swift in Sources */,
 				90E93BDD1BE2E9AC00489F73 /* AppDelegate.swift in Sources */,
 				90E93BDF1BE2E9AC00489F73 /* FirstViewController.swift in Sources */,
 			);

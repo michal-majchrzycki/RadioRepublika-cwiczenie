@@ -3,6 +3,8 @@ import UIKit
 class MondayViewController: UIViewController, NSXMLParserDelegate
 {
     @IBOutlet weak var tbData: UITableView!
+    @IBOutlet weak var dayName: UINavigationItem!
+    @IBOutlet weak var NavigationBarMonday: UINavigationBar!
     
     var parser = NSXMLParser()
     var posts = NSMutableArray()
@@ -11,10 +13,14 @@ class MondayViewController: UIViewController, NSXMLParserDelegate
     var title1 = NSMutableString()
     var date = NSMutableString()
     
+    var nameBar = String()
+    var parseSender = NSXMLParser()
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         self.beginParsing()
+        self.dayName.title = self.nameBar;
     }
     
     override func didReceiveMemoryWarning()
@@ -27,14 +33,12 @@ class MondayViewController: UIViewController, NSXMLParserDelegate
     func beginParsing()
     {
         posts = []
-        parser = NSXMLParser(contentsOfURL:(NSURL(string:"https://www.kimonolabs.com/api/rss/4pso0yvo?apikey=cjt71G5qiIOTGZB8cbHf8mNTIL3bOUp5"))!)!
+        parser = parseSender
         parser.delegate = self
         parser.parse()
         
         tbData!.reloadData()
     }
-    
-    //XMLParser Methods
     
     func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String])
     {
@@ -69,7 +73,6 @@ class MondayViewController: UIViewController, NSXMLParserDelegate
         }
     }
     
-    //Tableview Methods
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return posts.count
